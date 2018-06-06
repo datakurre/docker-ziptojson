@@ -65,7 +65,7 @@ pkgs.dockerTools.buildImage {
       "PATH=/bin"
       "TMPDIR=/tmp"
     ];
-    ExposedPort = {
+    ExposedPorts = {
       "8080/tcp" = {};
     };
   };
